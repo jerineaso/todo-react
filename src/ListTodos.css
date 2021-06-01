@@ -1,0 +1,20 @@
+.list-section{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-left,.list-right{
+    padding: 10px 13px 0 0;
+}
+
+.list-right{
+    margin-left: 15px;
+}
+
+.list-text{
+    color: white;
+    font-size: 20px;
+    margin: 15px 0;
+}
+
