@@ -1,3 +1,4 @@
+/* Styles for App */
 * {
   margin: 0;
   padding: 0;
@@ -6,12 +7,11 @@
 body {
   background-color: #020631;
 }
-
-.app {
-  position: absolute;
-  top: 10%;
-  left: 50%;
-  transform: translate(-50%, -10%);
+.app  {
+position: absolute;
+top: 10%;
+left: 50%;
+transform: translate(-50%, -10%);
 }
 
 .app .mainHeading h1 {
@@ -31,7 +31,7 @@ h2 {
 }
 
 .app .input {
-  margin-top: 0.8em;
+  margin: 0.8em 5rem;
   width: 25em;
   height: 2em;
   background-color: white;
@@ -90,4 +90,10 @@ h2 {
 .app .todos .todo .left .strike{
   text-decoration: line-through;
   text-decoration-color: #020631;
+}
+
+.leftTodos{
+  color:white;
+  margin: 10px 0;
+  margin: 0.8em 5rem;
 }

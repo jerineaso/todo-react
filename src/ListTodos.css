@@ -1,4 +1,5 @@
-.list-section{
+/* Styles for ListTodos */
+.main-list{
     margin-top: 70px;
     display: flex;
     justify-content: space-between;
@@ -8,6 +9,10 @@
     padding: 10px 13px 0 0;
 }
 
+.list-left{
+    border-right: 1px solid white;
+    width: 50%;
+}
 .list-right{
     margin-left: 15px;
 }
